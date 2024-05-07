@@ -1,0 +1,51 @@
+.logo a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.perfil-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;   
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.perfil-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-img i {
+    font-size: 2.8rem;
+}
+
+.alterar {
+    cursor: pointer;
+}
+
+.alterar:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    transition: 0.8s;
+}
+
+.alerta {
+    display: none;
+    color: rgb(255, 101, 101);
+    font-size: 1.2rem;
+}

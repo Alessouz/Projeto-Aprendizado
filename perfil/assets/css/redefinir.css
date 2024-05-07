@@ -1,0 +1,31 @@
+h1 {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.perfil-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;   
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#alterar {
+    display: flex;
+    justify-content: end;
+}
